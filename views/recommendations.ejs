@@ -1,0 +1,7 @@
+<div class="section">
+    <ul>
+        <% recommendations.forEach(rec => { %>
+            <li>User <%= rec.userId %> recommends <%= books.find(b => b.id === rec.bookId).title %></li>
+        <% }); %>
+    </ul>
+</div>

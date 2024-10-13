@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/books">Books</a></li>
+                <li><a href="/recommendations">Recommendations</a></li>
+                <li><a href="/add-book">Add Book</a></li>
+                <li><a href="/add-recommendation">Add Recommendation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1><%= title %></h1>
+        <%- body %>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 BookBuddy. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/validation.js"></script>
+</body>
+</html>

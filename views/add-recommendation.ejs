@@ -1,0 +1,17 @@
+<div class="section">
+    <form action="/add-recommendation" method="POST" id="addRecommendationForm">
+        <div>
+            <label for="userId">User ID:</label>
+            <input type="number" id="userId" name="userId" required min="1">
+        </div>
+        <div>
+            <label for="bookId">Book:</label>
+            <select id="bookId" name="bookId" required>
+                <% books.forEach(book => { %>
+                    <option value="<%= book.id %>"><%= book.title %></option>
+                <% }); %>
+            </select>
+        </div>
+        <button type="submit">Add Recommendation</button>
+    </form>
+</div>

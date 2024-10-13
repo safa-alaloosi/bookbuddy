@@ -1,0 +1,17 @@
+<div class="section">
+    <h2>Featured Books</h2>
+    <ul>
+        <% books.forEach(book => { %>
+            <li><%= book.title %> by <%= book.author %></li>
+        <% }); %>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Recent Recommendations</h2>
+    <ul>
+        <% recommendations.forEach(rec => { %>
+            <li>User <%= rec.userId %> recommends book ID <%= rec.bookId %></li>
+        <% }); %>
+    </ul>
+</div>
