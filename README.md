@@ -49,7 +49,10 @@ If you're not using Docker, you'll need to set up MySQL and MongoDB manually. Af
 3. Update the credentials to match your local database settings.
 
 
-### Screenshots
+## Screenshots
+
+Setup
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/992526b2-1753-42e7-8079-e301f47d0307">
 
 Home Page
 <img width="1552" alt="image" src="https://github.com/user-attachments/assets/a1424713-7532-4f6d-97c9-fad60daa7160">
